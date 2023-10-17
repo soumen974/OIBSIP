@@ -36,7 +36,7 @@ nav{
 
 /* ------------ Section 1 -------------------- */
 
-section{
+section .section_1{
     height: 100vh;
 }
 .section_1{
@@ -114,4 +114,54 @@ section{
     mix-blend-mode: multiply;
     height: 3.2rem;
     width: 100%;
+}
+
+/* --------------sec----------------------- */
+section .newArrv{
+    height: 100vh;
+}
+
+.sec3-newarrival{
+    padding: 4rem;
+}
+.sec3-newarrival header{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.sec3-newarrival header img{
+    height: 1.4rem;
+     position: absolute;
+     left: 12rem;
+     z-index: -1;
+}
+.sec3-newarrival ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap:5.5rem;
+    overflow-x: scroll;
+    padding-top: 6rem;
+    
+}
+.sec3-newarrival ul::-webkit-scrollbar {
+    display: none;
+}
+.CatlogBox img{
+    height: 25vw;
+    border-radius: 0.2rem;
+}
+.ImgBottom{
+    display: flex;
+    justify-content: space-between;
+}
+.arrowCheck svg{
+    height: .7rem;
+    padding-top: .8rem;
+}
+.texts{
+    color: rgba(0, 0, 0, 0.697);
+
+}
+.headtext{
+    font-weight: 700;
 }
