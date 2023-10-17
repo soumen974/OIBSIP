@@ -104,3 +104,14 @@ section{
     background: #EBD96B;
     padding: 4rem;
 }
+.sec2body ul {
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: space-evenly;
+     list-style: none;
+}
+.sec2body ul li img{
+    mix-blend-mode: multiply;
+    height: 3.2rem;
+    width: 100%;
+}
