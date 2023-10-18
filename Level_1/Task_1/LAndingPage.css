@@ -3,6 +3,7 @@
     padding: 0;
     font-family:Poppins ;
 }
+
 nav{
     position: fixed;
     background-color: white;
@@ -170,28 +171,27 @@ section .newArrv{
 
 .addSec{
     display: flex;
-    justify-content: start;
+    justify-content:first baseline;
     background: linear-gradient(1deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
 }
 .rightAdthing{
-    /* width: 100%; */
-    padding: 4rem;
-    display:grid;
-    justify-content: space-between;
-    gap: 4rem;
+    justify-content: start;
     justify-self: center;
+    padding-left: 15rem;
 }
 .rightContents{
     padding:8rem 0;
+    display: grid;
     justify-content: center; 
     align-items: center;
+    gap: 1.2rem;
 }
 .rightAdthing span{
     background: white;
     padding:0  0.41rem;
 }
 .leftaddGirl img{
-    height: 44vw;
+    height: 42rem;
 }
 .rightAdthing h4{
     font-size: 4rem;
@@ -203,12 +203,18 @@ section .newArrv{
     font-weight: 400;
     width: 20vw;
 }
+.h5Div{
+font-weight:600;
+color: #000000cf;
+
+}
 .addSec button{
     background: #000;
     color: white;
-    padding:  0.2rem 0.4rem;
+    padding:  0.7rem 1.2rem;
     font-size: 0.84vw;
     border-radius:0.2rem ;
     border: none;
+    width: max-content;   
     
 }
