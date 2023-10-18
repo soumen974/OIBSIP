@@ -211,10 +211,58 @@ color: #000000cf;
 .addSec button{
     background: #000;
     color: white;
-    padding:  0.7rem 1.2rem;
-    font-size: 0.84vw;
+    padding:  0.6rem 1.5rem;
+    font-size: 0.94vw;
+    font-weight: bold;
     border-radius:0.2rem ;
     border: none;
     width: max-content;   
     
 }
+
+/* --------------sec-5-------------------- */
+.favsec{
+    /* height: 100vh; */
+    padding: 4rem;
+    
+}
+.favsec header{
+font-weight: bold;
+padding-bottom: 2rem;
+font-size: 2rem;
+
+}
+.favsec header img{
+    height: 1.4rem;
+     position: absolute;
+     left: 16rem;
+     z-index: -1;
+}
+.favsec ul{
+ display: flex;
+ list-style: none;
+ justify-content: space-between;
+ /* gap: 4rem; */
+}
+
+/* ----------------sec-6-------------------- */
+
+.sec6_app_ad{
+    display: flex;
+    padding: 4rem;
+    justify-content: space-around;
+}
+.apprightTings img{
+    height: 40rem;
+    
+}
+.appLeft{
+    padding:8rem 0;
+    display: grid;
+    justify-content: center; 
+    align-items: center;
+    /* gap: 1.2rem; */
+ }
+ .appLeft header{
+    font-size: 2rem;
+ }
