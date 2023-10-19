@@ -282,4 +282,65 @@ font-size: 2rem;
     border-radius: 0.4rem;
     cursor: pointer;
    }
-   
+
+
+/* -------------------senEndLast----------------------- */
+.endsecContect{
+    background: #E5C643;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 1rem;
+}
+.endsecContect header{
+    color: white;
+    font-size:2.3rem ;
+    font-weight: 600;
+    width: 50%;
+    text-align: center;
+}
+.inputBoxButton{
+    background: white;
+    padding: 0.2rem 0.2rem;
+    border-radius: 0.2rem;
+
+}
+.inputBoxButton input{
+    border: none;
+    width: 17vw;
+    padding: 0.2rem 0.2rem;
+    outline: none;
+}
+.inputBoxButton button{
+    border: none;
+    background: #000;
+    color: white;
+    padding: 0.4rem 1.2rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+/* -----------------footer-------------------- */
+.footContent{
+    background: #000;
+    padding: 4rem;
+    color: white;
+    display: flex;
+    
+}
+.logosocials ul {
+    display: flex;
+    justify-content: space-between;
+    grid-area: 0.1rem;
+    list-style: none;
+}
+.logosocials ul li {
+    background: #EBD96B;
+    padding: 0.7rem 1rem;
+    border-radius: 0.2rem;
+} 
+.logosocials ul li  img{
+    height: 1.2rem;
+} 
