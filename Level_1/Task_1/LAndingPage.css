@@ -258,11 +258,28 @@ font-size: 2rem;
 }
 .appLeft{
     padding:8rem 0;
-    display: grid;
+    display:flex;
+    flex-direction: column;
     justify-content: center; 
-    align-items: center;
-    /* gap: 1.2rem; */
+    gap: 2rem;
  }
  .appLeft header{
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: 900;
+    width: 35.4vw;
+    
  }
+ .butonsDownload {
+    display: flex;
+    gap: 2rem;
+ }
+ .butonsDownload button{
+  border: none;
+  background: none;
+ }
+ .butonsDownload button img{
+    /* mix-blend-mode:soft-light; */
+    border-radius: 0.4rem;
+    cursor: pointer;
+   }
+   
